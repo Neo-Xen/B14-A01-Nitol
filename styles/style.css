@@ -34,6 +34,17 @@ img {
   cursor: pointer;
 }
 
+.btn-outline{
+  padding: 15px 40px;
+  border: 1px solid;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  background-color: white;
+  color: #1D4ED8;
+  cursor: pointer;
+}
 
 
 /* Navigation */
@@ -116,4 +127,158 @@ img {
   padding: 22px 50px;
   bottom: 20px;
 }
+
+
+
+/* Speakers */
+.speakers-parent {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.speakers-parent h1 {
+  font-size: 3rem;
+}
+
+.speakers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.speaker-card {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.speaker-card-text {
+  padding: 15px;
+  text-align: left;
+  line-height: 10px;
+}
+
+.speaker-card-text p:first-child {
+  color: #2563eb;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.speaker-card-text p:last-child {
+  color: #575757;
+  font-size: 0.8rem;
+}
+
+
+
+/* Secure Your Spot */
+.pricing-parent {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.pricing-parent h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.pricing-parent > p {
+  color: #575757;
+  font-size: 0.9rem;
+  
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 55px 0;
+}
+
+.pricing-card {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 15px;
+  width: 320px;
+  text-align: left;
+  padding: 30px;
+}
+
+.pricing-card p:first-child {
+  color: #575757;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.pricing-card p:last-child {
+  color: #575757;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.pricing-card h1 {
+  margin: 7px 0 0 0;
+  font-size: 2.5rem;
+}
+
+.pricing-card hr {
+  margin: 20px 0;
+  border: 1px solid #f1f1f1;
+}
+
+.pricing-grid ul {
+  padding: 0 15px;
+}
+
+.pricing-grid li {
+  color: #333333;
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
+.pricing-grid li::marker {
+  color: #2563eb;
+}
+
+.pricing-card button {
+  width: 100%;
+}
+
+.card-dark {
+  background-color: #0d1b2a;
+  color: white;
+}
+
+.card-dark p:first-child {
+  color: #93c5fd;
+}
+
+.card-dark p:last-child {
+  color: rgb(158, 158, 158);
+}
+
+.card-dark hr {
+  border: 1px solid #2c2c2c;
+}
+
+.card-dark li {
+  color: rgb(196, 196, 196);
+}
+
+.card-dark li::marker {
+  color: #60a5fa;
+}
+
+.card-grey {
+  background-color: #f8f9fb;
+}
+
+.card-grey button {
+  color: #0d1b2a;
+}
+
+
+
+
+
 
