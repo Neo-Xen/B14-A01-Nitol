@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -19,21 +23,39 @@
         <div class="logo">
           <img src="./images/logo.png" alt="DevConf 2026 Logo" />
         </div>
-        <ul class="nav-links">
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Tracks</a></li>
-          <li><a href="#">Venue</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-        <button class="btn-common btn-primary">Register Now</button>
+
+        <div class="nav-links-parent">
+          <ul class="nav-links">
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Tracks</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <button class="btn-common btn-primary">Register Now</button>
+        </div>
       </nav>
     </header>
 
+    <!-- Hero/Banner -->
+    <section class="hero-parent">
+      <img class="hero-bg-img" src="./images/banner.jpg" alt="Hero Banner" />
+
+      <div class="hero-content">
+        <span>Code. <em>Connect.</em> Create.</span>
+        <p>
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          conference of 2026. Three days of cutting-edge talks, hands-on
+          workshops, and meaningful connections.
+        </p>
+        <button class="btn-common">Register Now</button>
+      </div>
+    </section>
 
 
-
-
-
+    
   </body>
 </html>
