@@ -310,59 +310,48 @@ img {
 
 
 /* FAQ */
-.faq-section {
-  background-color: #090d16; /* Slightly darker background to separate sections */
-  color: #ffffff;
+.faq-parent {
+  margin-top: 60px;
   padding: 60px 0px;
+  text-align: center;
 }
 
-.faq-section h2 {
+.faq-parent h1 {
   text-align: center;
-  font-size: 28px;
+  font-size: 3rem;
   margin-bottom: 40px;
 }
 
-.faq-container {
-  width: 600px; /* Fixed width since no responsive code is requested */
-  margin: 0 auto; /* Centers the container on the page */
+.faq-grid {
+  width: 700px;
+  margin: 0 auto;
 }
 
 .faq-item {
   background-color: #111827;
+  color: white;
   margin-bottom: 15px;
   padding: 20px;
-  border-radius: 6px;
-  border: 1px solid #1e293b;
+  border-radius: 50px;
   cursor: pointer;
 }
 
 .faq-question {
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 .faq-answer {
-  display: none; /* Keeps the answer hidden initially */
+  display: none;
   margin-top: 12px;
   color: #94a3b8;
-  font-size: 15px;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
-/* Hover effect: Immediately changes display to block when hovered */
 .faq-item:hover .faq-answer {
   display: block;
 }
-
-/* Optional: Slight border highlight when hovering over the FAQ item */
-.faq-item:hover {
-  border-color: #2563eb; /* Matches the blue primary buttons from DEVCONF 2026 */
-}
-
-
-
-
-
 
 
 
