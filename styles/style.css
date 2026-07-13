@@ -100,9 +100,9 @@ img {
 
 .hero-content {
   position: absolute;   
+  align-items: center;
   top: 100px;
   bottom: 50px;
-  max-width: 850px; 
   text-align: center;
   color: #ffffff;
 }
@@ -114,6 +114,7 @@ img {
 }
 
 .hero-content p {
+  max-width: 650px; 
   font-size: 18px;
   line-height: 1.6;
   color: #e5e7eb;
@@ -121,11 +122,10 @@ img {
 }
 
 .hero-content button {
-  position: absolute;
+  position: relative;
   font-size: 1.2rem;
-  padding: 22px 50px;
-  bottom: 20px;
-  margin: 0;
+  padding: 22px 80px;
+  margin-top: 270px;
 }
 
 
@@ -276,6 +276,93 @@ img {
 .card-grey button {
   color: #0d1b2a;
 }
+
+
+
+/* Sponsors */
+.sponsors-parent {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  max-width: 1000px !important;
+  height: auto;
+}
+
+.sponsors-parent h1 {
+  font-size: 3rem;
+  margin-bottom: 60px;
+}
+
+.sponsor-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+.sponsor-logo-card {
+  color: #94a3b8;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px;
+}
+
+
+
+/* FAQ */
+.faq-section {
+  background-color: #090d16; /* Slightly darker background to separate sections */
+  color: #ffffff;
+  padding: 60px 0px;
+}
+
+.faq-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.faq-container {
+  width: 600px; /* Fixed width since no responsive code is requested */
+  margin: 0 auto; /* Centers the container on the page */
+}
+
+.faq-item {
+  background-color: #111827;
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+  cursor: pointer;
+}
+
+.faq-question {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.faq-answer {
+  display: none; /* Keeps the answer hidden initially */
+  margin-top: 12px;
+  color: #94a3b8;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Hover effect: Immediately changes display to block when hovered */
+.faq-item:hover .faq-answer {
+  display: block;
+}
+
+/* Optional: Slight border highlight when hovering over the FAQ item */
+.faq-item:hover {
+  border-color: #2563eb; /* Matches the blue primary buttons from DEVCONF 2026 */
+}
+
+
+
+
+
 
 
 
