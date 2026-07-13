@@ -1,13 +1,12 @@
-/* Global Styles */
+/* #region Global Styles */
 body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+/* #endregion */
 
-
-
-/* Common Styles */
+/* #region Common Styles */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -45,9 +44,9 @@ img {
   color: #1D4ED8;
   cursor: pointer;
 }
+/* #endregion */
 
-
-/* Navigation */
+/* #region Navigation */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -71,10 +70,9 @@ img {
   font-weight: 500;
   color: #4b5563;
 }
+/* #endregion */
 
-
-
-/* Hero */
+/* #region Hero */
 .hero-parent {
   display: flex;
   justify-content: center;
@@ -127,10 +125,9 @@ img {
   padding: 22px 80px;
   margin-top: 270px;
 }
+/* #endregion */
 
-
-
-/* Speakers */
+/* #region Speakers */
 .speakers-parent {
   text-align: center;
   margin-top: 70px;
@@ -169,10 +166,9 @@ img {
   color: #575757;
   font-size: 0.8rem;
 }
+/* #endregion */
 
-
-
-/* Secure Your Spot */
+/* #region Secure Your Spot */
 .pricing-parent {
   text-align: center;
   margin-top: 80px;
@@ -186,7 +182,6 @@ img {
 .pricing-parent > p {
   color: #575757;
   font-size: 0.9rem;
-  
 }
 
 .pricing-grid {
@@ -276,10 +271,9 @@ img {
 .card-grey button {
   color: #0d1b2a;
 }
+/* #endregion */
 
-
-
-/* Sponsors */
+/* #region Sponsors */
 .sponsors-parent {
   margin-top: 100px;
   margin-bottom: 50px;
@@ -306,12 +300,10 @@ img {
   overflow: hidden;
   box-shadow: 10px 10px 30px;
 }
+/* #endregion */
 
-
-
-/* FAQ */
+/* #region FAQ */
 .faq-parent {
-  margin-top: 60px;
   padding: 60px 0px;
   text-align: center;
 }
@@ -352,10 +344,9 @@ img {
 .faq-item:hover .faq-answer {
   display: block;
 }
+/* #endregion */
 
-
-
-/* Footer */
+/* #region Footer */
 footer {
   background-color: #0d1b2a;
   width: 100%;
@@ -388,3 +379,4 @@ footer hr {
   font-size: 0.8rem;
   color: rgb(131, 131, 131);
 }
+/* #endregion */
